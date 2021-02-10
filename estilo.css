@@ -1,0 +1,104 @@
+/*CUERPO*/
+*				{box-sizing:border-box;}
+.filas::after 	{content:""; clear:both; display:table;}
+[class*="col-"] 	{float:left; padding:15px;}
+
+/*PALETAS (Color de fondo y color de texto*/
+
+/*Primer ejemplo Colores*/
+body 			{background:#F2F2F2; margin:0;}
+.p-cabecera		{background:#581845; color:#ffffff;}
+.p-menu li 		{background:#900c3f; color:#ffffff;}
+.p-menu li:hover{background:#f2f2f2; color:#666666;}
+.p-centro		{background:#f2f2f2; color:#666666;}
+.p-derecha		{background:#c70039; color:#ffffff;}
+.p-trio			{background:#ff5733; color:#ffffff;}
+.p-pie			{background:#ffc300; color:#ffffff;}
+*/
+
+/*Segundo ejemplo Degradado/
+body 			{background:#001a33; margin:0;}
+.p-cabecera		{background:#004080; color:#fff;}
+.p-menu li 		{background:#0066cc; color:#fff;}
+.p-menu li:hover{background:#1a8cff; color:#fff;}
+.p-centro		{background:#66b3ff; color:#fff;}
+.p-derecha		{background:#b3d9ff; color:#001a33;}
+.p-trio			{background:#cce6ff; color:#001a33;}
+.p-pie			{background:#e6f2ff; color:#001a33;}
+*/
+
+/*Tercer ejemplo Alto Contraste/
+body 			{background:#222; margin:0;}
+.p-cabecera		{background:#000; color:#fff;}
+.p-menu li 		{background:#000; color:#fff;}
+.p-menu li:hover{background:#000; color:#fff;}
+.p-centro		{background:#000; color:#fff;}
+.p-derecha		{background:#000; color:#fff;}
+.p-trio			{background:#000; color:#fff;}
+.p-pie			{background:#000; color:#fff;}
+*/
+
+/*TEXTOS*/
+.t-cabecera		{font-size:20px; text-align:left; 	font-family: "Lucida Sans", sans-serif;}
+.t-menu li 		{font-size:14px; text-align:left;	font-family: "Lucida Sans", sans-serif;}
+.t-centro		{font-size:18px; text-align:left;	font-family: "Lucida Sans", sans-serif;}
+.t-derecha		{font-size:16px; text-align:center; font-family: "Lucida Sans", sans-serif;}
+.t-trio			{font-size:14px; text-align:center;	font-family: "Lucida Sans", sans-serif;}
+.t-pie			{font-size:12px; text-align:center;	font-family: "Lucida Sans", sans-serif;}
+
+/*CONTENEDORES*/
+.c-cabecera		{padding:15px; }
+.c-menu ul 		{padding:00px; border-radius:5px; margin:0; list-style-type: none;}
+.c-menu li 		{padding:08px; border-radius:5px; box-shadow:0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24); margin-bottom:7px; cursor:pointer;}
+.c-centro		{padding:15px; border-radius:5px; margin-top:15px;}
+.c-derecha		{padding:15px; border-radius:5px; box-shadow:0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);}
+.c-trio			{padding:15px; border-radius:5px; box-shadow:0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);}
+.c-pie			{padding:15px; }
+
+/*IMAGENES*/
+.i-cabecera		{width:50px; height:auto; }
+.i-centro		{width:0%; height:auto; }
+.i-derecha		{width:20%; height:auto; }
+.i-trio			{width:10%; height:auto; }
+.i-pie			{width:30%; height:auto; }
+.i-css			{width:100%; height:auto; }
+
+/*ANIMACIONES*/
+.a-menu li:hover 	{animation: mover-izquierda 1s linear forwards;}
+
+.mover-izquierda				{animation: mover-izquierda 1s linear forwards;}
+@keyframes mover-izquierda 		{from {padding-left:10%;} to {padding-left:auto;}}
+
+/*CELULARES*/
+[class*="col-"] {width: 100%;}
+
+@media only screen and (min-width: 600px) {
+  /*TABLETAS*/
+  .col-s-1 {width: 8.33%;}
+  .col-s-2 {width: 16.66%;}
+  .col-s-3 {width: 25%;}
+  .col-s-4 {width: 33.33%;}
+  .col-s-5 {width: 41.66%;}
+  .col-s-6 {width: 50%;}
+  .col-s-7 {width: 58.33%;}
+  .col-s-8 {width: 66.66%;}
+  .col-s-9 {width: 75%;}
+  .col-s-10 {width: 83.33%;}
+  .col-s-11 {width: 91.66%;}
+  .col-s-12 {width: 100%;}
+}
+@media only screen and (min-width: 768px) {
+  /*ESCRITORIO*/
+  .col-1 {width: 8.33%;}
+  .col-2 {width: 16.66%;}
+  .col-3 {width: 25%;}
+  .col-4 {width: 33.33%;}
+  .col-5 {width: 41.66%;}
+  .col-6 {width: 50%;}
+  .col-7 {width: 58.33%;}
+  .col-8 {width: 66.66%;}
+  .col-9 {width: 75%;}
+  .col-10 {width: 83.33%;}
+  .col-11 {width: 91.66%;}
+  .col-12 {width: 100%;}
+}
