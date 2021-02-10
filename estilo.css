@@ -1,5 +1,5 @@
 /*CUERPO*/
-*				{box-sizing:border-box;}
+* {box-sizing:border-box;}
 .filas::after 	{content:""; clear:both; display:table;}
 [class*="col-"] 	{float:left; padding:15px;}
 
@@ -9,7 +9,7 @@
 body 			{background:#F2F2F2; margin:0;}
 .p-cabecera		{background:#581845; color:#ffffff;}
 .p-menu li 		{background:#900c3f; color:#ffffff;}
-.p-menu li:hover{background:#f2f2f2; color:#666666;}
+.p-menu li:hover  {background:#f2f2f2; color:#666666;}
 .p-centro		{background:#f2f2f2; color:#666666;}
 .p-derecha		{background:#c70039; color:#ffffff;}
 .p-trio			{background:#ff5733; color:#ffffff;}
@@ -20,7 +20,7 @@ body 			{background:#F2F2F2; margin:0;}
 body 			{background:#001a33; margin:0;}
 .p-cabecera		{background:#004080; color:#fff;}
 .p-menu li 		{background:#0066cc; color:#fff;}
-.p-menu li:hover{background:#1a8cff; color:#fff;}
+.p-menu li:hover  {background:#1a8cff; color:#fff;}
 .p-centro		{background:#66b3ff; color:#fff;}
 .p-derecha		{background:#b3d9ff; color:#001a33;}
 .p-trio			{background:#cce6ff; color:#001a33;}
@@ -31,7 +31,7 @@ body 			{background:#001a33; margin:0;}
 body 			{background:#222; margin:0;}
 .p-cabecera		{background:#000; color:#fff;}
 .p-menu li 		{background:#000; color:#fff;}
-.p-menu li:hover{background:#000; color:#fff;}
+.p-menu li:hover  {background:#000; color:#fff;}
 .p-centro		{background:#000; color:#fff;}
 .p-derecha		{background:#000; color:#fff;}
 .p-trio			{background:#000; color:#fff;}
